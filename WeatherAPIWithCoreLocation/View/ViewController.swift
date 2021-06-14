@@ -40,8 +40,9 @@ extension ViewController {
                 self.weatherVM = WeatherViewModel(viewModel: weatherModel)
                 DispatchQueue.main.async {
                     if let weatherVM = self.weatherVM {
-                        print(weatherVM.temperature)
-                        print(weatherVM.location)
+                        self.tempLabel.text = "Temperature: \(weatherVM.temperature) °C"
+                        self.locationLabel.text = "Your Location: \(weatherVM.location)"
+                        
                     }
                 }
             }
