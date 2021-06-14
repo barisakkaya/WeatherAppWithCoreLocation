@@ -37,6 +37,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E49D8564267771A6009763B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E49D8565267771AE009763B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC9236267679EA005AE032 /* AppDelegate.swift */,
+				E4FC9238267679EA005AE032 /* SceneDelegate.swift */,
+				E4FC923A267679EA005AE032 /* ViewController.swift */,
+				E4FC923C267679EA005AE032 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E49D8566267771B9009763B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E49D8567267771BE009763B2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		E4FC922A267679EA005AE032 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +88,10 @@
 		E4FC9235267679EA005AE032 /* WeatherAPIWithCoreLocation */ = {
 			isa = PBXGroup;
 			children = (
-				E4FC9236267679EA005AE032 /* AppDelegate.swift */,
-				E4FC9238267679EA005AE032 /* SceneDelegate.swift */,
-				E4FC923A267679EA005AE032 /* ViewController.swift */,
-				E4FC923C267679EA005AE032 /* Main.storyboard */,
+				E49D8567267771BE009763B2 /* Service */,
+				E49D8566267771B9009763B2 /* Model */,
+				E49D8565267771AE009763B2 /* View */,
+				E49D8564267771A6009763B2 /* ViewModel */,
 				E4FC923F267679EC005AE032 /* Assets.xcassets */,
 				E4FC9241267679EC005AE032 /* LaunchScreen.storyboard */,
 				E4FC9244267679EC005AE032 /* Info.plist */,
