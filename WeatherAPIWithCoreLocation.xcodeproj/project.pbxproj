@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E44E8295267A30110085754F /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E8294267A30110085754F /* StackViewController.swift */; };
 		E49D85692677A11F009763B2 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D85682677A11F009763B2 /* WeatherModel.swift */; };
 		E49D856B2677A15C009763B2 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D856A2677A15C009763B2 /* WeatherService.swift */; };
 		E49D856D2677A170009763B2 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D856C2677A170009763B2 /* WeatherViewModel.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E44E8294267A30110085754F /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		E49D85682677A11F009763B2 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		E49D856A2677A15C009763B2 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		E49D856C2677A170009763B2 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				E4FC9238267679EA005AE032 /* SceneDelegate.swift */,
 				E4FC923A267679EA005AE032 /* ViewController.swift */,
 				E4FC923C267679EA005AE032 /* Main.storyboard */,
+				E44E8294267A30110085754F /* StackViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49D856B2677A15C009763B2 /* WeatherService.swift in Sources */,
+				E44E8295267A30110085754F /* StackViewController.swift in Sources */,
 				E49D85702677C20B009763B2 /* UserModel.swift in Sources */,
 				E49D856D2677A170009763B2 /* WeatherViewModel.swift in Sources */,
 				E4FC923B267679EA005AE032 /* ViewController.swift in Sources */,
